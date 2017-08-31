@@ -8,10 +8,10 @@
     <version>1.0-SNAPSHOT</version>
     <url>http://www.mycompany.com</url>
     <build>
-        <sourceDirectory>src</sourceDirectory>
+        <sourceDirectory>__src__</sourceDirectory>
         <resources>
             <resource>
-                <directory>src</directory>
+                <directory>__src__</directory>
                 <includes>
                     <include>**</include>
                 </includes>
@@ -52,7 +52,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <project.cronospass.resource mimetype="folder/src">src</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/web">webcontent</project.cronospass.resource>
+        <project.cronospass.resource mimetype="folder/src">__src__</project.cronospass.resource>
     </properties>
 </project>
