@@ -19,6 +19,24 @@
                     <exclude>**/*.java</exclude>
                 </excludes>
             </resource>
+            <resource>
+                <directory>romanoSource</directory>
+                <includes>
+                    <include>**</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <directory>jorge/jorgeSource</directory>
+                <includes>
+                    <include>**</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
         </resources>
         <plugins>
             <plugin>
@@ -54,5 +72,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.cronospass.resource mimetype="folder/web">webcontent</project.cronospass.resource>
         <project.cronospass.resource mimetype="folder/src">__src__</project.cronospass.resource>
+        <project.cronospass.resource mimetype="folder/src">romanoSource</project.cronospass.resource>
+        <project.cronospass.resource mimetype="folder/src">jorge/jorgeSource</project.cronospass.resource>
     </properties>
 </project>
